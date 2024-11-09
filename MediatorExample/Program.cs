@@ -25,4 +25,3 @@ namespace MediatorExample
             });
     }
 }
-/*test*/
