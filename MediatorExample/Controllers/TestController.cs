@@ -20,6 +20,5 @@ namespace MediatorExample.Controllers
         {
             return "I am update";
         }
-
     }
 }
