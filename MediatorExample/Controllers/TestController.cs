@@ -9,14 +9,12 @@ namespace MediatorExample.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
-        // GET: api/<TestController>
         [HttpGet]
         public string Get()
         {
             return "I am update";
         }
 
-        // GET api/<TestController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
