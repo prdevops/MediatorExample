@@ -37,7 +37,6 @@ namespace MediatorExample
             }
 
             //app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
